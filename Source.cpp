@@ -24,7 +24,6 @@ int main() {
     }
     cout << endl;
 
-    // Print every element at an even index
     cout << "Even indices:        ";
     for (int i = 0; i < ARRAY_SIZE; i += 2) {
         cout << array[i] << " ";
