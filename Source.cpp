@@ -14,7 +14,6 @@ int main() {
 
     srand(time(nullptr));
 
-    // Initialize array with random 4-digit integers
     for (int i = 0; i < ARRAY_SIZE; i++) {
         array[i] = rand() % (MAX_VALUE - MIN_VALUE + 1) + MIN_VALUE;
     }
