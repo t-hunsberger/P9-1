@@ -44,6 +44,7 @@ int main() {
     }
     cout << endl;
 
+    // Print only the first and last element
     cout << "First and last:      " << array.front() << " " << array.back() << endl;
 
     return 0;
