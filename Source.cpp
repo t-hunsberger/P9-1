@@ -30,7 +30,6 @@ int main() {
     }
     cout << endl;
 
-    // Print every even element
     cout << "Even values:         ";
     for (int num : array) {
         if (num % 2 == 0) {
@@ -39,14 +38,12 @@ int main() {
     }
     cout << endl;
 
-    // Print all elements in reverse order
     cout << "Reversed order:      ";
     for (int i = ARRAY_SIZE - 1; i >= 0; i--) {
         cout << array[i] << " ";
     }
     cout << endl;
 
-    // Print only the first and last element
     cout << "First and last:      " << array.front() << " " << array.back() << endl;
 
     return 0;
