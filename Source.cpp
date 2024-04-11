@@ -18,7 +18,6 @@ int main() {
         array[i] = rand() % (MAX_VALUE - MIN_VALUE + 1) + MIN_VALUE;
     }
 
-    // Print every element in order of appearance
     cout << "The random integers: ";
     for (int num : array) {
         cout << num << " ";
