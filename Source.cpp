@@ -12,7 +12,6 @@ const int MAX_VALUE = 9999;
 int main() {
     vector<int> array(ARRAY_SIZE);
 
-    // Seed the random number generator
     srand(time(nullptr));
 
     // Initialize array with random 4-digit integers
